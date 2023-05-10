@@ -34,6 +34,7 @@ main .main__one .main__one__services .main__one__services__big .main__services__
           flex-direction: column;
   width: 190px;
   height: 227px;
+  margin-top: 50px;
 }
 main .main__one .main__one__services .main__one__services__big .main__services__big__ram h4, main .main__one .main__one__services .main__one__services__small h4 {
   font-family: "Open Sans", sans-serif;
@@ -109,9 +110,6 @@ header .header__nav .header__nav__list {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-header .header__nav .header__nav__list li {
-  display: inline-block;
 }
 header .header__nav .header__nav__list li a {
   font-family: "Open Sans", sans-serif;
@@ -359,6 +357,7 @@ header .header__content .header__content__image {
   position: absolute;
   z-index: -2;
   margin-left: 417px;
+  margin-top: 60px;
 }
 header .header__decore {
   width: 1440px;
@@ -661,6 +660,12 @@ main .main__two .main__two__city .main__box__city .main__box__city__down .city__
   font-size: 16px;
   line-height: 124.5%;
   color: #5E6282;
+}
+main .main__two .main__two__city .main__box__city:hover {
+  -webkit-transform: scale(1.2345);
+          transform: scale(1.2345);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 main .main__two .main__two__city .box__city__two {
   background-image: url(../img/maintwopic2.jpg);
@@ -2019,7 +2024,7 @@ footer p {
   main .main__one {
     margin-top: 91px;
     width: 420px;
-    height: 1250px;
+    height: 1368px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2058,8 +2063,9 @@ footer p {
     color: #14183E;
   }
   main .main__one .main__one__services {
+    margin-top: 50px;
     width: 420px;
-    height: 1250px;
+    height: 1236px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2125,15 +2131,15 @@ footer p {
   main .main__one .main__one__stars {
     position: relative;
     z-index: -2;
-    top: -1020px;
+    top: -1200px;
     left: 128px;
     right: 0px;
     bottom: 0px;
   }
   main .main__two {
     margin: auto;
-    height: 1871px;
     width: 420px;
+    height: 1700px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2149,7 +2155,7 @@ footer p {
             flex-direction: column;
   }
   main .main__two .main__two__title {
-    margin-top: 69px;
+    margin-top: 0px;
     width: 418px;
     height: 100px;
   }
@@ -2178,7 +2184,7 @@ footer p {
   main .main__two .main__two__city {
     margin-top: 60px;
     width: 420px;
-    height: 1571px;
+    height: 1471px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2306,7 +2312,7 @@ footer p {
     position: absolute;
     z-index: -2;
     margin-left: 300px;
-    margin-top: 1500px;
+    margin-top: 1200px;
   }
   main .main__three {
     margin: auto;
